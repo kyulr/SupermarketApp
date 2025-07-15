@@ -30,8 +30,6 @@ connection.connect((err) => {
         return;
     }
     console.log('Connected to MySQL database');
-
-    connection.end();
 });
 
 // Set up view engine
